@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <h1 class="head">Weather Tracker</h1>
+    <nav class="navi">
+        <a href="{{url_for('login')}}">Home</a>
+        <a href="{{url_for('home')}}">Tracker</a>
+        <a href="#">Reference</a>
+        <a href="#">Contact</a>
+        <a href="#">Help</a>
+    </nav>
+    <img src="../static/images/1540005.webp" alt="" class="image" height="720px" width="100%">
+    <form method="post">
+        <input type="text" name="city" placeholder="Enter City Name" class="city">
+        <input type="submit" value="Submit" class="submit" style="bottom: 20%;right: 20%;margin: 0 60px;">
+    </form>
+    <h3 class="common6">City Name:{{name}}</h3>
+    <h3 class="common1">Temperature:{{temp}}°F</h3>
+    <h3 class="common2">Feels Like:{{feels}}°F</h3>
+    <h3 class="common3">Pressure:{{pressure}}</h3>
+    <h3 class="common4">Humidity:{{humidity}}</h3>
+    <h3 class="common7">Sunrise:{{sunrise}}</h3>
+    <h3 class="common8">Sunset:{{sunset}}</h3>
+    <h3 class="common9">Clouds:{{clouds}}</h3>
+    <h3 class="common5">Wind:{{wind}}</h3>
+
+</body>
+</html>

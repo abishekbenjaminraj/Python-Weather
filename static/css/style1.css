@@ -1,0 +1,37 @@
+.button a{
+    color: rgb(1, 0, 0);
+    text-decoration-line: none;
+    font-family: 'Poppins' sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.button button{
+    position: absolute;
+    top: 64%;
+    left: 80%;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    border: 5px solid rgb(161, 65, 65);
+    border-radius: 100px;
+}
+
+.head{
+    position: absolute;
+    top: 7%;
+    left: 13%;
+}
+
+nav{
+    position: absolute;
+    top: 11%;
+    left: 40%;
+    font-size: 23px;
+    word-spacing: 35px;
+}
+
+a{
+    text-decoration-line: none;
+    color: rgb(0, 0, 0);
+}
+
